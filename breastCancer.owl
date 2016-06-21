@@ -13,6 +13,10 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.1</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#DP000809"/>
     </Declaration>
@@ -173,10 +177,10 @@
         <Class IRI="#DP000592"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000495"/>
+        <Class IRI="#DP000580"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000580"/>
+        <Class IRI="#DP000495"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000619"/>
@@ -233,10 +237,10 @@
         <Class IRI="#DP000814"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000705"/>
+        <Class IRI="#DP000826"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000826"/>
+        <Class IRI="#DP000705"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000911"/>
@@ -341,10 +345,10 @@
         <ObjectProperty IRI="#DP000475"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000487"/>
+        <Class IRI="#DP000615"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000615"/>
+        <ObjectProperty IRI="#DP000487"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000845"/>
@@ -353,10 +357,10 @@
         <Class IRI="#DP000724"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000857"/>
+        <Class IRI="#DP000736"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000736"/>
+        <Class IRI="#DP000857"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000603"/>
@@ -449,19 +453,19 @@
         <Class IRI="#DP000738"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000823"/>
+        <Class IRI="#DP000702"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000702"/>
+        <Class IRI="#DP000823"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000835"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000477"/>
+        <Class IRI="#DP000714"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000714"/>
+        <ObjectProperty IRI="#DP000477"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000811"/>
@@ -494,10 +498,10 @@
         <ObjectProperty IRI="#DP000464"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000476"/>
+        <Class IRI="#DP000812"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000812"/>
+        <ObjectProperty IRI="#DP000476"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000488"/>
@@ -512,13 +516,13 @@
         <Class IRI="#DP000800"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000720"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000483"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000841"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000720"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000611"/>
@@ -551,13 +555,13 @@
         <Class IRI="#DP000865"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000744"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000514"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000635"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000744"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000502"/>
@@ -578,10 +582,10 @@
         <ObjectProperty IRI="#DP000482"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000600"/>
+        <Class IRI="#DP000830"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000830"/>
+        <Class IRI="#DP000600"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000842"/>
@@ -623,28 +627,28 @@
         <Class IRI="#DP000503"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000866"/>
+        <Class IRI="#DP000612"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000745"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000612"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000649"/>
+        <Class IRI="#DP000866"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000528"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000649"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000710"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000831"/>
+        <ObjectProperty IRI="#DP000473"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000473"/>
+        <Class IRI="#DP000831"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000746"/>
@@ -683,10 +687,10 @@
         <Class IRI="#DP000734"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000855"/>
+        <Class IRI="#DP000601"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000601"/>
+        <Class IRI="#DP000855"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000529"/>
@@ -695,19 +699,19 @@
         <Class IRI="#DP000759"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000638"/>
+        <Class IRI="#DP000517"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000517"/>
+        <Class IRI="#DP000638"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000472"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000484"/>
+        <Class IRI="#DP000820"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000820"/>
+        <ObjectProperty IRI="#DP000484"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000856"/>
@@ -746,16 +750,16 @@
         <Class IRI="#DP000723"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000885"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000764"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000534"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000655"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000885"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000764"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000897"/>
@@ -770,6 +774,9 @@
         <Class IRI="#DP000522"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000631"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000861"/>
     </Declaration>
     <Declaration>
@@ -779,19 +786,16 @@
         <Class IRI="#DP000740"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000631"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000873"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000752"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000788"/>
+        <Class IRI="#DP000679"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000679"/>
+        <Class IRI="#DP000788"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000558"/>
@@ -806,13 +810,13 @@
         <Class IRI="#DP000860"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000874"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000753"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000644"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000874"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000523"/>
@@ -836,10 +840,10 @@
         <Class IRI="#DP000850"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000862"/>
+        <Class IRI="#DP000741"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000741"/>
+        <Class IRI="#DP000862"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000559"/>
@@ -869,22 +873,22 @@
         <Class IRI="#DP000863"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000633"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000512"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000742"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000875"/>
+        <Class IRI="#DP000633"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000754"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000621"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000875"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000730"/>
@@ -899,10 +903,10 @@
         <Class IRI="#DP000548"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000766"/>
+        <Class IRI="#DP000536"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000536"/>
+        <Class IRI="#DP000766"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000657"/>
@@ -911,10 +915,10 @@
         <Class IRI="#DP000887"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000899"/>
+        <Class IRI="#DP000778"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000778"/>
+        <Class IRI="#DP000899"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000645"/>
@@ -950,22 +954,22 @@
         <Class IRI="#DP000840"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000549"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000779"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000658"/>
+        <Class IRI="#DP000549"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000537"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000876"/>
+        <Class IRI="#DP000658"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000755"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000876"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000646"/>
@@ -1001,10 +1005,10 @@
         <Class IRI="#DP000784"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000675"/>
+        <Class IRI="#DP000554"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000554"/>
+        <Class IRI="#DP000675"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000542"/>
@@ -1037,13 +1041,13 @@
         <Class IRI="#DP000880"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000688"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000567"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000797"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000688"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000555"/>
@@ -1052,7 +1056,7 @@
         <Class IRI="#DP000676"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000773"/>
+        <Class IRI="#DP000894"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000664"/>
@@ -1061,13 +1065,13 @@
         <Class IRI="#DP000543"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000894"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000652"/>
+        <Class IRI="#DP000773"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000531"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000652"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000785"/>
@@ -1115,10 +1119,10 @@
         <Class IRI="#DP000532"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000762"/>
+        <Class IRI="#DP000653"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000653"/>
+        <Class IRI="#DP000762"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000883"/>
@@ -1127,13 +1131,13 @@
         <Class IRI="#DP000520"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000895"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000641"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000774"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000895"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000568"/>
@@ -1142,10 +1146,10 @@
         <Class IRI="#DP000689"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000640"/>
+        <Class IRI="#DP000870"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000870"/>
+        <Class IRI="#DP000640"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000761"/>
@@ -1157,13 +1161,13 @@
         <Class IRI="#DP000896"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000666"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000775"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000545"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000666"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000787"/>
@@ -1178,19 +1182,19 @@
         <Class IRI="#DP000751"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000872"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000521"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000642"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000763"/>
+        <Class IRI="#DP000872"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000630"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000763"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000884"/>
@@ -1232,13 +1236,13 @@
         <Class IRI="#DP000694"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000791"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000682"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000561"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000791"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000670"/>
@@ -1256,16 +1260,16 @@
         <Class IRI="#DP000575"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000574"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000695"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000683"/>
+        <Class IRI="#DP000574"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000562"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000683"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000550"/>
@@ -1289,10 +1293,10 @@
         <Class IRI="#DP000697"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000564"/>
+        <Class IRI="#DP000685"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000685"/>
+        <Class IRI="#DP000564"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000684"/>
@@ -1331,16 +1335,16 @@
         <Class IRI="#DP000686"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000565"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000795"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000553"/>
+        <Class IRI="#DP000565"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000553"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000782"/>
@@ -1352,13 +1356,13 @@
         <Class IRI="#DP000673"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000661"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000540"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000794"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000661"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000770"/>
