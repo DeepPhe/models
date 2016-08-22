@@ -933,9 +933,6 @@
         <Class IRI="#DP000177"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000044"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#DP000303"/>
     </Declaration>
     <Declaration>
@@ -1008,6 +1005,9 @@
         <ObjectProperty IRI="#DP000423"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#DP900003"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000435"/>
     </Declaration>
     <Declaration>
@@ -1050,6 +1050,9 @@
         <DataProperty IRI="#DP000305"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#DP900004"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000400"/>
     </Declaration>
     <Declaration>
@@ -1075,6 +1078,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DP000065"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP900001"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000053"/>
@@ -1144,6 +1150,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DP000064"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP900002"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000088"/>
@@ -1234,6 +1243,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DP000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP90000"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000428"/>
@@ -2025,10 +2037,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000038"/>
-        <Class IRI="#DP000044"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000038"/>
         <Class IRI="#DP001008"/>
     </SubClassOf>
     <SubClassOf>
@@ -2038,10 +2046,6 @@
     <SubClassOf>
         <Class IRI="#DP000043"/>
         <Class IRI="#DP000006"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000044"/>
-        <Class IRI="#DP000013"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000045"/>
@@ -3354,6 +3358,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP001008"/>
+        <Class IRI="#DP000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001008"/>
         <Class IRI="#DP001001"/>
     </SubClassOf>
     <SubClassOf>
@@ -3607,6 +3615,45 @@
     <SubClassOf>
         <Class IRI="#DP001018"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP90000"/>
+        <Class IRI="#DP000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP90000"/>
+        <Class IRI="#DP001010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP90000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP900001"/>
+            <Class IRI="#DP001007"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP90000"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP900002"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP001007"/>
+                <Class IRI="#DP001008"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP90000"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP900003"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP90000"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP900004"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000125"/>
@@ -4332,6 +4379,14 @@
         <ObjectProperty IRI="#DP100004"/>
         <Class IRI="#DP001010"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP900001"/>
+        <Class IRI="#DP90000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP900002"/>
+        <Class IRI="#DP90000"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000015"/>
@@ -4379,6 +4434,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP100004"/>
         <Class IRI="#DP001001"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP900001"/>
+        <Class IRI="#DP001007"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP900002"/>
+        <Class IRI="#DP001007"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP900002"/>
+        <Class IRI="#DP001008"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#DP000268"/>
@@ -4652,6 +4719,14 @@
         <Class IRI="#DP001010"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#DP900003"/>
+        <Class IRI="#DP90000"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DP900004"/>
+        <Class IRI="#DP90000"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
         <Class IRI="#DP001006"/>
     </DataPropertyDomain>
@@ -4721,6 +4796,14 @@
     <DataPropertyRange>
         <DataProperty IRI="#DP100003"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DP900003"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DP900004"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -5155,11 +5238,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000043</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000044</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9644,7 +9722,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP001008</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MedicationStatement</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -9816,9 +9894,34 @@
         <IRI>#DP100004</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasBundleResource</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP90000</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TreatmentRegimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP900001</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasRegimenType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP900002</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasRegimenComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP900003</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasTotalNumberCycles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP900004</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasCurrentCycleNumber</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
