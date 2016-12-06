@@ -2,7 +2,7 @@
 
 OWL files and related content for the DeepPhe cancer information model, as described in
 
-H. Hochheiser, M. Castine, D. Harris, G. Savova, and R. Jacobson An Information Model for Cancer Phenotypes.
+H. Hochheiser, M. Castine, D. Harris, G. Savova, and R. Jacobson [An Information Model for Computable Cancer Phenotypes](http://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-016-0358-4).
 
 Supporting information can be found on the [repository wiki page](https://github.com/DeepPhe/models/wiki).
 
